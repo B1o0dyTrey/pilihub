@@ -1,7 +1,16 @@
 spring:
+<<<<<<< HEAD
   #    数据库连接
   datasource:
     url: jdbc:mysql://localhost:3306/pilihub?serverTimezone=UTC
     username: root
     password: 321mutouren
     driver-class-name: com.mysql.cj.jdbc.Driver
+=======
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    schema: pilihub.sql
+    url: jdbc:mysql://localhost:3306/pilihub
+    username: root
+    password: 123456
+>>>>>>> 91d3dd6413e997fb1ac2051c443f2381e4566dcb
