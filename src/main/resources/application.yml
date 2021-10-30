@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    schema: pilihub.sql
+    url: jdbc:mysql://localhost:3306/pilihub
+    username: root
+    password: 123456
